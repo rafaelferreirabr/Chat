@@ -1,15 +1,14 @@
 {
   "development": {
     "username": "postgres",
-    "password": "mysecretpassword",
+    "password": "postgres",
     "database": "chat",
     "host": "127.0.0.1",
-    "dialect": "postgres",
-    "operatorsAliases": false
+    "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
-    "password": "mysecretpassword",
+    "password": "postgres",
     "database": "chat",
     "host": "127.0.0.1",
     "dialect": "postgres",
@@ -17,7 +16,7 @@
   },
   "production": {
     "username": "postgres",
-    "password": "mysecretpassword",
+    "password": "postgres",
     "database": "chat",
     "host": "127.0.0.1",
     "dialect": "postgres",
